@@ -1,0 +1,132 @@
+/*==================== GOOGLE FONTS ====================*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+/*==================== BASE ====================*/
+* {
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+
+html {
+scroll-behavior: smooth;
+}
+
+body {
+margin: 0 0 var(--header-height) 0;
+font-family: var(--body-font);
+font-size: var(--normal-font-size);
+background-color: var(--body-background-color);
+color: var(--text-color);
+transition: .6s;
+
+}
+
+h1, h2, h3, h4 {
+color: var(--title-color);
+font-weight: var(--font-semi-bold);
+}
+
+ul {
+list-style: none;
+}
+
+a {
+text-decoration: none;
+}
+
+img {
+max-width: 100%;
+height: auto;
+}
+
+/*==================== VARIABLES CSS ====================*/
+:root {
+
+	--body-background-color: #1E1E1E;
+	--white-color: #fff;
+	--white-color-darker: #d6d2d2;
+	--red-color: #EE1C25;
+
+
+    --body-font: 'Poppins', sans-serif;
+}
+
+
+body.dark-theme {
+	--body-background-color: #ffffff;
+	--white-color: #1E1E1E;
+	--white-color-darker: #535353;
+}
+
+
+/* BUTTON OF THEME  */
+.theme__button {
+	font-size: 25px;
+	color: var(--white-color);
+}
+
+.theme__button:hover {
+	color: var(--white-color-darker);
+}
+
+/* BUTTON OF SCROLLUP  */
+
+.scrollup {
+	font-size: 50px;
+	color: var(--white-color);
+	position: fixed;
+	right: .3rem;
+	bottom: -20%;
+	transition: .4s;
+	z-index: 10;
+}
+
+.show-scroll {
+	bottom: 2rem;
+}
+
+.show-scroll:hover {
+	bottom: 2.5rem;
+	z-index: 12;
+}
+
+.show-nav-button {
+	display: block;
+}
+
+.show-header-list {
+	display: block;
+}
+
+.span-link {
+	color: var(--white-color);
+	font-weight: 600;
+	text-decoration: underline;
+	transition: .3s;
+}
+
+.span-link:hover {
+	color: var(--red-color);
+}
+
+/* Scroll  */ 
+::-webkit-scrollbar {
+	width: .80rem;
+	height: 1rem;
+	background-color: var(--body-background-color);
+	border-radius: .5rem;
+	transition: .4s;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: var(--white-color);
+	border-radius: .5rem;
+	transition: .4s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background-color: var(--white-color-darker);
+}
+
+

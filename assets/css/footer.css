@@ -1,0 +1,15 @@
+.footer {
+	border-top: 1px solid var(--white-color);
+	position: relative;
+}
+
+.footer__text {
+	color: var(--white-color);
+	font-size: 15px;
+	text-align: center;
+	padding: .3rem 1rem;
+}
+
+.footer__text-span {
+	font-family: 'Noto Serif Khojki', serif;
+}

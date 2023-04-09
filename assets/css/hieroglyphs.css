@@ -1,0 +1,44 @@
+.hieroglyphs {
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+.hieroglyphs__container {
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+.hieroglyphs__flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.hieroglyphs__img {
+	height: 500px;
+	width: 220px ;
+	box-shadow: 0 2px 4px var(--white-color);
+	margin: 30px;
+	transition: .5s;
+}
+
+.hieroglyphs__img:hover {
+	transform: scale(105%);
+}
+
+.hieroglyphs__item-title {
+	font-family: 'Noto Serif Khojki', serif;
+	color: var(--red-color);
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.hieroglyphs__item-subtitle {
+	font-size: 17px;
+	max-width: 300px;
+	border-top: 1px solid var(--white-color);
+	border-bottom: 1px solid var(--white-color);
+	padding-top: 15px;
+	padding-bottom: 15px;
+}

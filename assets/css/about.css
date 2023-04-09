@@ -1,0 +1,31 @@
+.about {
+	margin-top: 70px; 
+	width: 100%;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background-color: var(--white-color);
+}
+
+.about__flex {
+	display: flex;
+	justify-content: center;
+}
+
+.about__flex-items {
+	display: block;
+	font-size: 155px;
+	color: var(--body-background-color);
+	transition: 1s;
+	/* animation: ani 2.5s forwards; */
+	transform: translateY(-150%);
+	animation: ani 1s forwards;
+}
+
+@keyframes ani {
+	0% {transform: translateY(-150%);}
+	100% {transform: translateY(0);}
+}
+
+.about__flex-items-animation {
+	font-size: 160px;
+}

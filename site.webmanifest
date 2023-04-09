@@ -1,0 +1,14 @@
+{
+    "name": "DV - page",
+    "short_name": "DV - page",
+    "icons": [
+        {
+            "src": "/assets/icons/android-chrome-72x72.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#d8d8d8",
+    "background_color": "#d8d8d8",
+    "display": "standalone"
+}

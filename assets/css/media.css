@@ -1,0 +1,48 @@
+/* Media Queries */
+@media screen and (min-width: 1024px) {
+	.container {
+		max-width: 1024px;
+		margin: 0 auto;
+	}
+	.scrollup {
+		right: 2rem;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.about__flex {
+		align-items: center;
+    	flex-direction: column;
+	}
+	.about {
+		padding: 0;
+	}
+	.download {
+		border-left: none !important;
+		border-right: none !important;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#nav-button {
+		display: block;
+	}
+	.header__list {
+		position: absolute;
+		display: none;
+		flex-direction: row-reverse;
+	}
+	.header__list .header__list-elem{
+		display: none;
+	}
+	.hieroglyphs__flex {
+		flex-direction: column-reverse;
+	}
+}
+
+@media screen and (max-width: 420px) {
+	.about__flex h2 {
+		font-size: 120px;
+	}
+}
+

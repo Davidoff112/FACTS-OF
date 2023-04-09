@@ -1,0 +1,13 @@
+.info {
+	margin-top: 20px;
+	margin-bottom: 80px;
+}
+.info__container {
+	max-width: 1024px;
+	margin: 0 auto;
+}
+.info__text {
+	color: var(--white-color);
+	transition: .3s;
+	margin: 0 10px;
+}

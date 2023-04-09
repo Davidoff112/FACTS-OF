@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Khojki:wght@500&display=swap');
+
+.gradient {
+	height: 150px; 
+	width: 70%; 
+	max-width: 1024px;
+	margin: 0 auto;
+	border: 10px solid transparent;
+	border-image: linear-gradient(to right, transparent 0%, var(--red-color) 100%);
+	border-image-slice: 1;
+}
+
+.main__title-text {
+	color: var(--white-color);
+	font-family: 'Noto Serif Khojki', serif;
+	font-size: 60px;
+	text-align: center;
+	padding-bottom: 10px;
+}

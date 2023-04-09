@@ -1,0 +1,39 @@
+.author {
+	margin-bottom: 20px;
+}
+
+.author__container {
+	margin: 0 auto;
+	max-width: 1024px;
+}
+
+.author__subtitle {
+	text-align: center;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: var(--white-color);
+}
+
+.author__title {
+	margin-top: 15px;
+	text-align: center;
+	color: var(--white-color);
+	font-weight: 500;
+}
+
+.author__flex {
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+}
+
+.author__icon {
+	color: var(--white-color);
+	font-size: 35px;
+	transition: .3s;
+}
+
+.author__icon:hover {
+	color: var(--red-color);
+	transform: scale(125%);
+}

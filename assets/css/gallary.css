@@ -1,0 +1,35 @@
+.swiper__main-cont {
+	border-top: 1px solid var(--white-color);
+	border-bottom: 1px solid var(--white-color);
+}
+
+.swiper__conatiner {
+	margin: 0 auto;
+}
+
+.swiper {
+	max-width: 768px;
+}
+
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	width: 100%;
+	background: var(--body-background-color);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: var(--white-color);
+}
+
+.swiper-slide img {
+	right: 50px;
+	width: 80%;
+	height: 400px;
+	display: block;
+	/* width: 60%; */
+	background-repeat: no-repeat;
+	object-fit: cover;
+	margin: 0 auto;
+	background-position: 100%;
+}
